@@ -2,15 +2,11 @@
 
 ## Spring Microservices - V1 & V2 - REST + Microservices + Spring Boot + Spring Cloud + Docker + Kubernetes
 
-- Launch MySQL as Docker Container <br />
-
-docker run --detach --env MYSQL_ROOT_PASSWORD=dummypassword --env MYSQL_USER=social-media-user --env MYSQL_PASSWORD=dummypassword --env MYSQL_DATABASE=social-media-database --name mysql --publish 3306:3306 mysql:8-oracle
-
 There are so many topics which I learned and implement and create Project on the basis of knowledge which I have.
 
 - Docker <br />
 - Kubernetes <br />
-- Spring Boot 2.4.x+ & Spring Cloud 2020.x+ <br />
+- Spring Boot 2.5.*+ 3.0.* & Spring Cloud 2021.x+ <br />
 - Service Registry using Eureka Naming Server <br />
 - Load Balancing with Spring Cloud LoadBalancer (replacing Ribbon) <br />
 - API Gateway with Spring Cloud Gateway (instead of Zuul) <br />
@@ -18,7 +14,7 @@ There are so many topics which I learned and implement and create Project on the
 - Distributed Tracing with Zipkin <br />
 - Asynchronous Communication using Rabbit MQ <br />
 
-* Microservices with Spring Cloud - V2 <br />
+### Microservices with Spring Cloud - V2 <br />
 
 Step 01 - Setting up Limits Microservice <br />
 Step 02 - Creating a hard coded limits service <br />
@@ -50,7 +46,11 @@ Step 27 - Playing with Resilience4j - Retry and Fallback Methods <br />
 Step 28 - Playing with Circuit Breaker Features of Resilience4j <br />
 Step 29 - Exploring Rate Limiting and BulkHead Features of Resilience4j <br />
 
-* Docker with Microservices using Spring Boot and Spring Cloud - V2
+### Docker with Microservices using Spring Boot and Spring Cloud - V2
+
+- Launch MySQL as Docker Container <br />
+
+docker run --detach --env MYSQL_ROOT_PASSWORD=dummypassword --env MYSQL_USER=social-media-user --env MYSQL_PASSWORD=dummypassword --env MYSQL_DATABASE=social-media-database --name mysql --publish 3306:3306 mysql:8-oracle
 
 Step 00 - Docker and Microservices <br />
 Step 01 - Installing Docker - Docker <br />
@@ -75,7 +75,7 @@ Step 19 - Running Spring Cloud API Gateway with Docker Compose <br />
 Step 20 - Running Zipkin with Docker Compose <br />
 Step 21 - Running Zipkin and RabbitMQ with Docker Compose <br />
 
-* Kubernetes with Microservices using Docker, Spring Boot and Spring Cloud - V2
+### Kubernetes with Microservices using Docker, Spring Boot and Spring Cloud - V2
 
 Step 00 - Docker, Kubernetes and Microservices - Made for each other <br />
 Step 01 - Getting Started with Docker, Kubernetes and Google Kubernetes Engine <br />
